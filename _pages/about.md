@@ -272,7 +272,7 @@ permalink: /about/
 
   .landing {
     max-width: 700px;
-    margin: 0 auto 4rem;
+    margin: 0 auto 2rem;
     padding: 0 1rem;
     text-align: center;
     border-bottom: 2px solid #000;
