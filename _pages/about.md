@@ -8,7 +8,7 @@ permalink: /about/
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 
 <style>
-  body {
+  .about-container {
     font-family: 'Space Mono', monospace;
     background: #fff;
     color: #111;
@@ -112,61 +112,63 @@ permalink: /about/
   }
 </style>
 
-<section class="landing">
-  <h1>🧱 Haess Romani</h1>
-  <p>Fullstack dev & photographer. I build fast, functional & raw digital tools. Here’s some of my work.</p>
-  <a href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID" class="button">Download My CV</a>
-</section>
+<div class="about-container">
+  <section class="landing">
+    <h1>🧱 Haess Romani</h1>
+    <p>Fullstack dev & photographer. I build fast, functional & raw digital tools. Here’s some of my work.</p>
+    <a href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID" class="button">Download My CV</a>
+  </section>
 
-<section class="portfolio-grid">
-  <!-- Project 1 -->
-  <div class="project-card">
-    <img src="https://placehold.co/800x400" alt="Picap Dashboard">
-    <div class="project-content">
-      <h2 class="project-title">🚕 Picap Admin Dashboard</h2>
-      <p class="project-tagline">"Move fast. Track faster."</p>
-      <p class="project-description">A web-based dashboard for managing and dispatching drivers in real-time across LATAM cities.</p>
-      <div class="tech-stack">
-        <img src="https://cdn.simpleicons.org/react/000000" alt="React">
-        <img src="https://cdn.simpleicons.org/firebase/000000" alt="Firebase">
-        <img src="https://cdn.simpleicons.org/apollographql/000000" alt="Apollo">
-        <img src="https://cdn.simpleicons.org/javascript/000000" alt="JavaScript">
+  <section class="portfolio-grid">
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="https://placehold.co/800x400" alt="Picap Dashboard">
+      <div class="project-content">
+        <h2 class="project-title">🚕 Picap Admin Dashboard</h2>
+        <p class="project-tagline">"Move fast. Track faster."</p>
+        <p class="project-description">A web-based dashboard for managing and dispatching drivers in real-time across LATAM cities.</p>
+        <div class="tech-stack">
+          <img src="https://cdn.simpleicons.org/react/000000" alt="React">
+          <img src="https://cdn.simpleicons.org/firebase/000000" alt="Firebase">
+          <img src="https://cdn.simpleicons.org/apollographql/000000" alt="Apollo">
+          <img src="https://cdn.simpleicons.org/javascript/000000" alt="JavaScript">
+        </div>
+        <a href="https://github.com/haessromani/picapweb" target="_blank">GitHub →</a>
       </div>
-      <a href="https://github.com/haessromani/picapweb" target="_blank">GitHub →</a>
     </div>
-  </div>
 
-  <!-- Project 2 -->
-  <div class="project-card">
-    <img src="https://placehold.co/800x400" alt="Ponle Fecha App">
-    <div class="project-content">
-      <h2 class="project-title">📅 Ponle Fecha</h2>
-      <p class="project-tagline">"Plan hangouts like it’s 2025."</p>
-      <p class="project-description">A smart calendar coordination tool that syncs availability across friend groups using Google Calendar.</p>
-      <div class="tech-stack">
-        <img src="https://cdn.simpleicons.org/rubyonrails/000000" alt="Rails">
-        <img src="https://cdn.simpleicons.org/googlecalendar/000000" alt="Google Calendar">
-        <img src="https://cdn.simpleicons.org/hotwire/000000" alt="HOTWIRE">
-        <img src="https://cdn.simpleicons.org/postgresql/000000" alt="PostgreSQL">
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="https://placehold.co/800x400" alt="Ponle Fecha App">
+      <div class="project-content">
+        <h2 class="project-title">📅 Ponle Fecha</h2>
+        <p class="project-tagline">"Plan hangouts like it’s 2025."</p>
+        <p class="project-description">A smart calendar coordination tool that syncs availability across friend groups using Google Calendar.</p>
+        <div class="tech-stack">
+          <img src="https://cdn.simpleicons.org/rubyonrails/000000" alt="Rails">
+          <img src="https://cdn.simpleicons.org/googlecalendar/000000" alt="Google Calendar">
+          <img src="https://cdn.simpleicons.org/hotwire/000000" alt="HOTWIRE">
+          <img src="https://cdn.simpleicons.org/postgresql/000000" alt="PostgreSQL">
+        </div>
+        <a href="https://github.com/haessromani/ponle-fecha" target="_blank">GitHub →</a>
       </div>
-      <a href="https://github.com/haessromani/ponle-fecha" target="_blank">GitHub →</a>
     </div>
-  </div>
 
-  <!-- Project 3 -->
-  <div class="project-card">
-    <img src="https://placehold.co/800x400" alt="Rutea Fácil">
-    <div class="project-content">
-      <h2 class="project-title">🚚 Rutea Fácil</h2>
-      <p class="project-tagline">"Routing made ridiculously simple."</p>
-      <p class="project-description">A platform to help delivery drivers generate optimal routes and track live service states using Mapbox.</p>
-      <div class="tech-stack">
-        <img src="https://cdn.simpleicons.org/rubyonrails/000000" alt="Rails">
-        <img src="https://cdn.simpleicons.org/mapbox/000000" alt="Mapbox">
-        <img src="https://cdn.simpleicons.org/sidekiq/000000" alt="Sidekiq">
-        <img src="https://cdn.simpleicons.org/postgresql/000000" alt="PostgreSQL">
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="https://placehold.co/800x400" alt="Rutea Fácil">
+      <div class="project-content">
+        <h2 class="project-title">🚚 Rutea Fácil</h2>
+        <p class="project-tagline">"Routing made ridiculously simple."</p>
+        <p class="project-description">A platform to help delivery drivers generate optimal routes and track live service states using Mapbox.</p>
+        <div class="tech-stack">
+          <img src="https://cdn.simpleicons.org/rubyonrails/000000" alt="Rails">
+          <img src="https://cdn.simpleicons.org/mapbox/000000" alt="Mapbox">
+          <img src="https://cdn.simpleicons.org/sidekiq/000000" alt="Sidekiq">
+          <img src="https://cdn.simpleicons.org/postgresql/000000" alt="PostgreSQL">
+        </div>
+        <a href="https://github.com/haessromani/rutea-facil" target="_blank">GitHub →</a>
       </div>
-      <a href="https://github.com/haessromani/rutea-facil" target="_blank">GitHub →</a>
     </div>
-  </div>
-</section>
+  </section>
+</div>
