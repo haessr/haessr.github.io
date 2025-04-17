@@ -1,6 +1,7 @@
 - title: Ride Monitoring Dashboard
+  hidden: false
   type: client
-  status: refactor
+  status: archived
   tagline: "Move fast. Track faster."
   description: >
     Real-time dashboard for managing and dispatching drivers across LATAM. Built with Firebase, React, and Apollo.
@@ -13,8 +14,9 @@
   url:
 
 - title: Ponle Fecha
+  hidden: false
   type: product
-  status: live
+  status: wip
   tagline: "Plan hangouts like it’s 2025."
   description: >
     Syncs Google Calendars to help groups find common availability. Built in Rails + HOTWIRE.
@@ -27,6 +29,7 @@
   url:
 
 - title: Rutea Fácil
+  hidden: true
   type: product
   status: wip
   tagline: "Routing made ridiculously simple."
@@ -41,6 +44,7 @@
   url:
 
 - title: AI Wardrobe
+  hidden: true
   type: personal
   status: experimental
   tagline: "Look sharp. Smarter."
@@ -51,5 +55,18 @@
     - python
     - fastapi
     - openai
+  github:
+  url:
+
+- title: SlashPages
+  hidden: false
+  status: wip
+  type: landing-page
+  tagline: "Launch in minutes. Not weeks."
+  description: >
+    A brutalist landing page generator for indie hackers. Pick a slash command, fill a config, and deploy a raw, fast static site instantly.
+  tech:
+    - ruby
+    - jekyll
   github:
   url:

@@ -480,30 +480,32 @@ permalink: /about/
 
   <section class="projects-grid">
     {% for project in site.data.projects %}
-  <div class="project-card">
-    <span class="status-badge status-{{ project.status | downcase }}">{{ project.status }}</span>
-    <h2 class="project-title">{{ project.title }}</h2>
-    <p class="project-tagline">"{{ project.tagline }}"</p>
-    <details class="project-description">
-      <summary>View Description</summary>
-      <p>{{ project.description }}</p>
-    </details>
-    <div class="tech-stack">
-      {% for tech in project.tech %}
-        <img src="https://cdn.simpleicons.org/{{ tech }}/000000" alt="{{ tech | capitalize }}">
-      {% endfor %}
-    </div>
-    <div class="project-links">
-      {% if project.url %}
-        <a href="{{ project.url }}" class="project-link" target="_blank">🌐 View Live</a>
-      {% endif %}
-      {% if project.github %}
-        <a href="{{ project.github }}" class="project-link" target="_blank">GitHub →</a>
-      {% endif %}
-    </div>
-    <!-- <span class="type-badge type-{{ project.type | downcase }}">{{ project.type }}</span> -->
-  </div>
-{% endfor %}
+    {% unless project.hidden %}
+      <div class="project-card">
+        <span class="status-badge status-{{ project.status | downcase }}">{{ project.status }}</span>
+        <h2 class="project-title">{{ project.title }}</h2>
+        <p class="project-tagline">"{{ project.tagline }}"</p>
+        <details class="project-description">
+          <summary>View Description</summary>
+          <p>{{ project.description }}</p>
+        </details>
+        <div class="tech-stack">
+          {% for tech in project.tech %}
+            <img src="https://cdn.simpleicons.org/{{ tech }}/000000" alt="{{ tech | capitalize }}">
+          {% endfor %}
+        </div>
+        <div class="project-links">
+          {% if project.url %}
+            <a href="{{ project.url }}" class="project-link" target="_blank">🌐 View Live</a>
+          {% endif %}
+          {% if project.github %}
+            <a href="{{ project.github }}" class="project-link" target="_blank">GitHub →</a>
+          {% endif %}
+        </div>
+        <!-- <span class="type-badge type-{{ project.type | downcase }}">{{ project.type }}</span> -->
+      </div>
+      {% endunless %}
+    {% endfor %}
   </section>
 </div>
 
