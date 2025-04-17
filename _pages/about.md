@@ -264,6 +264,7 @@ permalink: /about/
       <a href="https://www.linkedin.com/in/haessr" target="_blank" class="button">LinkedIn</a>
       <a href="https://github.com/haessr" target="_blank" class="button">GitHub</a>
       <a href="https://x.com/haessr" target="_blank" class="button">X</a>
+      <a href="https://www.youtube.com/@haessbuilds" target="_blank" class="button">YouTube</a>
       <div class="cv-dropdown">
       <a href="#" class="button cv-trigger">Download CV ▾</a>
       <div class="cv-options">
