@@ -272,7 +272,7 @@ permalink: /about/
     <!-- Project 1 -->
     <div class="project-card">
       <span class="status-badge">Live</span>
-      <h2 class="project-title">🚕 Picap Admin Dashboard</h2>
+      <h2 class="project-title">Ride Monitoring Dashboard</h2>
       <p class="project-tagline">"Move fast. Track faster."</p>
       <details class="project-description">
         <summary>View Description</summary>
@@ -290,7 +290,7 @@ permalink: /about/
     <!-- Project 2 -->
     <div class="project-card">
       <span class="status-badge">Live</span>
-      <h2 class="project-title">📅 Ponle Fecha</h2>
+      <h2 class="project-title">Ponle Fecha</h2>
       <p class="project-tagline">"Plan hangouts like it’s 2025."</p>
       <details class="project-description">
         <summary>View Description</summary>
@@ -308,7 +308,7 @@ permalink: /about/
     <!-- Project 3 -->
     <div class="project-card">
       <span class="status-badge">WIP</span>
-      <h2 class="project-title">🚚 Rutea Fácil</h2>
+      <h2 class="project-title">Rutea Fácil</h2>
       <p class="project-tagline">"Routing made ridiculously simple."</p>
       <details class="project-description">
         <summary>View Description</summary>
@@ -326,7 +326,7 @@ permalink: /about/
     <!-- Project 4 -->
     <div class="project-card">
       <span class="status-badge">WIP</span>
-      <h2 class="project-title">🧠 AI Wardrobe</h2>
+      <h2 class="project-title">AI Wardrobe</h2>
       <p class="project-tagline">"Look sharp. Smarter."</p>
       <details class="project-description">
         <summary>View Description</summary>
