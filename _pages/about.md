@@ -115,7 +115,7 @@ permalink: /about/
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 2.5rem; /* increase this value */
+    gap: 2rem; /* increase this value */
     font-family: 'Space Mono', monospace;
   }
 
