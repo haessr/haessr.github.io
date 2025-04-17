@@ -2,3 +2,4 @@
 
 source "https://rubygems.org"
 gemspec
+gem "bigdecimal", "~> 3.1"
