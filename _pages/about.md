@@ -135,12 +135,88 @@ permalink: /about/
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
-    background: #000;
-    color: #fff;
+    font-family: 'Space Mono', monospace;
     font-size: 0.7rem;
     text-transform: uppercase;
     padding: 2px 6px;
     font-weight: bold;
+    border: 2px solid #000;
+
+    /* brutalist sticker feel */
+    transform: rotate(-2deg);
+    box-shadow: 2px 2px 0 #000;
+  }
+
+/*   <div class="badges">
+    <span class="status-badge status-live" title="Fully launched & in use">Live</span>
+    <span class="status-badge status-wip" title="Work in progress">WIP</span>
+    <span class="status-badge status-beta" title="Feature-complete but needs testing">Beta</span>
+    <span class="status-badge status-archived" title="No longer maintained or updated">Archived</span>
+    <span class="status-badge status-experimental" title="Prototypes, R&D, trying new tech">Experimental</span>
+    <span class="status-badge status-v2" title="Major version update in the works">v2 Coming</span>
+    <span class="status-badge status-refactor" title="Project being refactored">Refactor</span>
+  </div> */
+
+  /* Colorful variants */
+  .status-live {
+    background: #16a34a; /* green-600 */
+    color: #fff;
+  }
+
+  .status-wip {
+    background: #facc15; /* yellow-400 */
+    color: #000;
+  }
+
+  .status-beta {
+    background: #3b82f6; /* blue-500 */
+    color: #fff;
+  }
+
+  .status-archived {
+    background: #9ca3af; /* gray-400 */
+    color: #fff;
+  }
+
+  .status-experimental {
+    background: #a855f7; /* purple-500 */
+    color: #fff;
+  }
+
+  .status-v2 {
+    background: #4b5563; /* slate-600 */
+    color: #fff;
+  }
+
+  .status-refactor {
+    background: #f97316; /* orange-500 */
+    color: #fff;
+  }
+
+  /* Type Variantes */
+  .status-product {
+    background: #000;
+    color: #fff;
+  }
+
+  .status-tool {
+    background: #f97316; /* orange */
+    color: #fff;
+  }
+
+  .status-client {
+    background: #0ea5e9; /* cyan */
+    color: #fff;
+  }
+
+  .status-template {
+    background: #eab308; /* gold */
+    color: #000;
+  }
+
+  .status-open-source {
+    background: #10b981; /* emerald */
+    color: #fff;
   }
 
   .project-title {
@@ -277,77 +353,30 @@ permalink: /about/
   </section>
 
   <section class="projects-grid">
-    <!-- Project 1 -->
-    <div class="project-card">
-      <span class="status-badge">Live</span>
-      <h2 class="project-title">Ride Monitoring Dashboard</h2>
-      <p class="project-tagline">"Move fast. Track faster."</p>
-      <details class="project-description">
-        <summary>View Description</summary>
-        <p>Real-time dashboard for managing and dispatching drivers across LATAM. Built with Firebase, React, and Apollo.</p>
-      </details>
-      <div class="tech-stack">
-        <img src="https://cdn.simpleicons.org/react/000000" alt="React">
-        <img src="https://cdn.simpleicons.org/firebase/000000" alt="Firebase">
-        <img src="https://cdn.simpleicons.org/apollographql/000000" alt="Apollo">
-        <img src="https://cdn.simpleicons.org/javascript/000000" alt="JS">
-      </div>
-      <a href="https://github.com/haessromani/picapweb" class="project-link" target="_blank">GitHub →</a>
+    {% for project in site.data.projects %}
+  <div class="project-card">
+    <span class="status-badge status-{{ project.status | downcase }}">{{ project.status }}</span>
+    <h2 class="project-title">{{ project.title }}</h2>
+    <p class="project-tagline">"{{ project.tagline }}"</p>
+    <details class="project-description">
+      <summary>View Description</summary>
+      <p>{{ project.description }}</p>
+    </details>
+    <div class="tech-stack">
+      {% for tech in project.tech %}
+        <img src="https://cdn.simpleicons.org/{{ tech }}/000000" alt="{{ tech | capitalize }}">
+      {% endfor %}
     </div>
-
-    <!-- Project 2 -->
-    <div class="project-card">
-      <span class="status-badge">Live</span>
-      <h2 class="project-title">Ponle Fecha</h2>
-      <p class="project-tagline">"Plan hangouts like it’s 2025."</p>
-      <details class="project-description">
-        <summary>View Description</summary>
-        <p>Syncs Google Calendars to help groups find common availability. Built in Rails + HOTWIRE.</p>
-      </details>
-      <div class="tech-stack">
-        <img src="https://cdn.simpleicons.org/rubyonrails/000000" alt="Rails">
-        <img src="https://cdn.simpleicons.org/googlecalendar/000000" alt="Google Calendar">
-        <img src="https://cdn.simpleicons.org/hotwire/000000" alt="HOTWIRE">
-        <img src="https://cdn.simpleicons.org/postgresql/000000" alt="PostgreSQL">
-      </div>
-      <a href="https://github.com/haessromani/ponle-fecha" class="project-link" target="_blank">GitHub →</a>
+    <div class="project-links">
+      {% if project.url %}
+        <a href="{{ project.url }}" class="project-link" target="_blank">🌐 View Live</a>
+      {% endif %}
+      {% if project.github %}
+        <a href="{{ project.github }}" class="project-link" target="_blank">GitHub →</a>
+      {% endif %}
     </div>
-
-    <!-- Project 3 -->
-    <div class="project-card">
-      <span class="status-badge">WIP</span>
-      <h2 class="project-title">Rutea Fácil</h2>
-      <p class="project-tagline">"Routing made ridiculously simple."</p>
-      <details class="project-description">
-        <summary>View Description</summary>
-        <p>Delivery routing platform that optimizes driver routes and tracks service states live using Mapbox.</p>
-      </details>
-      <div class="tech-stack">
-        <img src="https://cdn.simpleicons.org/rubyonrails/000000" alt="Rails">
-        <img src="https://cdn.simpleicons.org/mapbox/000000" alt="Mapbox">
-        <img src="https://cdn.simpleicons.org/sidekiq/000000" alt="Sidekiq">
-        <img src="https://cdn.simpleicons.org/postgresql/000000" alt="PostgreSQL">
-      </div>
-      <a href="https://github.com/haessromani/rutea-facil" class="project-link" target="_blank">GitHub →</a>
-    </div>
-
-    <!-- Project 4 -->
-    <div class="project-card">
-      <span class="status-badge">WIP</span>
-      <h2 class="project-title">AI Wardrobe</h2>
-      <p class="project-tagline">"Look sharp. Smarter."</p>
-      <details class="project-description">
-        <summary>View Description</summary>
-        <p>AI-based outfit generator and wardrobe manager that suggests looks from your real closet. Built with React + FastAPI.</p>
-      </details>
-      <div class="tech-stack">
-        <img src="https://cdn.simpleicons.org/react/000000" alt="React">
-        <img src="https://cdn.simpleicons.org/python/000000" alt="Python">
-        <img src="https://cdn.simpleicons.org/fastapi/000000" alt="FastAPI">
-        <img src="https://cdn.simpleicons.org/openai/000000" alt="OpenAI">
-      </div>
-      <a href="#" class="project-link" target="_blank">GitHub →</a>
-    </div>
+  </div>
+{% endfor %}
   </section>
 </div>
 
@@ -366,3 +395,10 @@ permalink: /about/
     subtitleEl.textContent = phrases[index];
   }, 4000);
 </script>
+
+<!-- <script>
+  document.querySelectorAll('.status-badge').forEach(badge => {
+    const deg = (Math.random() - 0.5) * 4; // -2 to +2 degrees
+    badge.style.transform = `rotate(${deg}deg)`;
+  });
+</script> -->

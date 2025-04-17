@@ -1,0 +1,51 @@
+- title: Ride Monitoring Dashboard
+  status: refactor
+  tagline: "Move fast. Track faster."
+  description: >
+    Real-time dashboard for managing and dispatching drivers across LATAM. Built with Firebase, React, and Apollo.
+  tech:
+    - react
+    - firebase
+    - apollographql
+    - javascript
+  github: https://github.com/haessromani/picapweb
+  url:
+
+- title: Ponle Fecha
+  status: live
+  tagline: "Plan hangouts like it’s 2025."
+  description: >
+    Syncs Google Calendars to help groups find common availability. Built in Rails + HOTWIRE.
+  tech:
+    - rubyonrails
+    - googlecalendar
+    - hotwire
+    - postgresql
+  github: https://github.com/haessromani/ponle-fecha
+  url:
+
+- title: Rutea Fácil
+  status: wip
+  tagline: "Routing made ridiculously simple."
+  description: >
+    Delivery routing platform that optimizes driver routes and tracks service states live using Mapbox.
+  tech:
+    - rubyonrails
+    - mapbox
+    - sidekiq
+    - postgresql
+  github: https://github.com/haessromani/rutea-facil
+  url:
+
+- title: AI Wardrobe
+  status: experimental
+  tagline: "Look sharp. Smarter."
+  description: >
+    AI-based outfit generator and wardrobe manager that suggests looks from your real closet. Built with React + FastAPI.
+  tech:
+    - react
+    - python
+    - fastapi
+    - openai
+  github: https://github.com/haessromani/ai-wardrobe
+  url:
