@@ -136,25 +136,7 @@ permalink: /about/
         <a href="https://github.com/haessromani/picapweb" target="_blank">GitHub →</a>
       </div>
     </div>
-
     <!-- Project 2 -->
-    <div class="project-card">
-      <img src="https://placehold.co/800x400" alt="Ponle Fecha App">
-      <div class="project-content">
-        <h2 class="project-title">📅 Ponle Fecha</h2>
-        <p class="project-tagline">"Plan hangouts like it’s 2025."</p>
-        <p class="project-description">A smart calendar coordination tool that syncs availability across friend groups using Google Calendar.</p>
-        <div class="tech-stack">
-          <img src="https://cdn.simpleicons.org/rubyonrails/000000" alt="Rails">
-          <img src="https://cdn.simpleicons.org/googlecalendar/000000" alt="Google Calendar">
-          <img src="https://cdn.simpleicons.org/hotwire/000000" alt="HOTWIRE">
-          <img src="https://cdn.simpleicons.org/postgresql/000000" alt="PostgreSQL">
-        </div>
-        <a href="https://github.com/haessromani/ponle-fecha" target="_blank">GitHub →</a>
-      </div>
-    </div>
-
-    <!-- Project 3 -->
     <div class="project-card">
       <img src="https://placehold.co/800x400" alt="Rutea Fácil">
       <div class="project-content">
