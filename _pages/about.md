@@ -261,8 +261,9 @@ permalink: /about/
       Living in Spain 🇪🇸 | Open to remote opportunities worldwide.
     </p>
     <div class="landing-links">
-      <a href="https://www.linkedin.com/in/haessromani" target="_blank" class="button">LinkedIn</a>
-      <a href="https://github.com/haessromani" target="_blank" class="button">GitHub</a>
+      <a href="https://www.linkedin.com/in/haessr" target="_blank" class="button">LinkedIn</a>
+      <a href="https://github.com/haessr" target="_blank" class="button">GitHub</a>
+      <a href="https://x.com/haessr" target="_blank" class="button">X</a>
       <a href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID" class="button">Download CV</a>
     </div>
   </section>
