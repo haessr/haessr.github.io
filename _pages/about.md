@@ -49,6 +49,7 @@ permalink: /about/
     background: #fff;
     display: flex;
     flex-direction: column;
+    position: relative;
   }
 
 .project-image {
@@ -114,7 +115,7 @@ permalink: /about/
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 1.5rem;
+    gap: 2.5rem; /* increase this value */
     font-family: 'Space Mono', monospace;
   }
 
@@ -325,6 +326,131 @@ permalink: /about/
     background: #fff;
     color: #000;
   }
+
+.type-badge {
+  position: absolute;
+  bottom: 0.75rem;
+  right: 0.75rem;
+  transform: rotate(-2deg);
+  padding: 0.35rem 0.75rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 9999px; /* pill shape */
+  border: 2px solid #000;
+  background: #fff;
+  color: #000;
+  box-shadow: 2px 2px 0 #000;
+  pointer-events: none;
+  z-index: 10;
+  white-space: nowrap;
+}
+
+/* Core Types */
+
+.type-default {
+  background: #fff;
+  color: #000;
+}
+
+.type-product {
+  background: #000;
+  color: #fff;
+}
+
+.type-tool {
+  background: #f97316; /* orange */
+  color: #fff;
+}
+
+.type-client {
+  background: #0ea5e9; /* cyan */
+  color: #fff;
+}
+
+.type-open-source {
+  background: #10b981; /* emerald */
+  color: #fff;
+}
+
+.type-template {
+  background: #eab308; /* gold */
+  color: #000;
+}
+
+/* Tech / Experimental Types */
+.type-ai {
+  background: #7c3aed; /* violet */
+  color: #fff;
+}
+
+.type-api {
+  background: #3b82f6; /* blue */
+  color: #fff;
+}
+
+.type-library {
+  background: #14b8a6; /* teal */
+  color: #fff;
+}
+
+.type-cli {
+  background: #1f2937; /* slate */
+  color: #fff;
+}
+
+.type-devops {
+  background: #6b7280; /* gray */
+  color: #fff;
+}
+
+/* Origin Types */
+.type-hackathon {
+  background: #dc2626; /* red */
+  color: #fff;
+}
+
+.type-startup {
+  background: #be123c; /* rose */
+  color: #fff;
+}
+
+.type-university {
+  background: #334155; /* dark slate */
+  color: #fff;
+}
+
+.type-side-hustle {
+  background: #f59e0b; /* amber */
+  color: #000;
+}
+
+.type-personal {
+  background: #d946ef; /* pink */
+  color: #fff;
+}
+
+/* Format / Use-Case Types */
+.type-landing-page {
+  background: #0f172a; /* navy */
+  color: #fff;
+}
+
+.type-dashboard {
+  background: #15803d; /* green */
+  color: #fff;
+}
+
+.type-cms {
+  background: #7e22ce; /* purple */
+  color: #fff;
+}
+
+.type-ecommerce {
+  background: #ef4444; /* red */
+  color: #fff;
+}
 </style>
 
 <div class="about-container">
@@ -375,6 +501,7 @@ permalink: /about/
         <a href="{{ project.github }}" class="project-link" target="_blank">GitHub →</a>
       {% endif %}
     </div>
+    <!-- <span class="type-badge type-{{ project.type | downcase }}">{{ project.type }}</span> -->
   </div>
 {% endfor %}
   </section>

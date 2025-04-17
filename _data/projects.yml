@@ -1,4 +1,5 @@
 - title: Ride Monitoring Dashboard
+  type: client
   status: refactor
   tagline: "Move fast. Track faster."
   description: >
@@ -12,6 +13,7 @@
   url:
 
 - title: Ponle Fecha
+  type: product
   status: live
   tagline: "Plan hangouts like it’s 2025."
   description: >
@@ -25,6 +27,7 @@
   url:
 
 - title: Rutea Fácil
+  type: product
   status: wip
   tagline: "Routing made ridiculously simple."
   description: >
@@ -38,6 +41,7 @@
   url:
 
 - title: AI Wardrobe
+  type: personal
   status: experimental
   tagline: "Look sharp. Smarter."
   description: >
