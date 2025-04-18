@@ -470,9 +470,9 @@ permalink: /about/
       <div class="cv-dropdown">
       <a href="#" class="button cv-trigger">Download CV ▾</a>
       <div class="cv-options">
-        <a href="https://drive.google.com/uc?export=download&id=ENGLISH_FILE_ID">English 🇬🇧</a>
-        <a href="https://drive.google.com/uc?export=download&id=SPANISH_FILE_ID">Español 🇪🇸</a>
-        <a href="https://drive.google.com/uc?export=download&id=FRENCH_FILE_ID">Français 🇫🇷</a>
+        <a href="https://drive.google.com/uc?export=download&id=1LD9Ozwb3xhGbOJq9AitEscMHgINIa8Rn">English 🇬🇧</a>
+        <a href="https://drive.google.com/uc?export=download&id=1HVwXTL1PvkUyoqC8hxqqNCWApodUg6ZX">Español 🇪🇸</a>
+        <!-- <a href="https://drive.google.com/uc?export=download&id=FRENCH_FILE_ID">Français 🇫🇷</a> -->
       </div>
     </div>
     </div>
