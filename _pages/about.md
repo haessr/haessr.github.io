@@ -512,7 +512,6 @@ permalink: /about/
 <script>
   const phrases = [
     "I build things with intention. Mostly with Rails. Always with care.",
-    "Performance-minded, product-driven, always shipping.",
     "Engineering with clarity — product thinking included."
   ];
 
