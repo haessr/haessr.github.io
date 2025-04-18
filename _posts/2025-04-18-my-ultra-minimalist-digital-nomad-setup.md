@@ -36,4 +36,4 @@ Just clean lines, clean code, and the occasional stray oat milk latte.
 
 The less I carry, the more I move. And right now, I’m moving toward another sunny spot with decent Wi-Fi.
 
-**Stay light, stay curious. 🌍**
+**Stay light, stay curious.**
