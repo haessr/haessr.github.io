@@ -15,19 +15,19 @@ Step right up for a peek at my “office” — which alternates between a coffe
 
 
 - **MacBook Air 13” M3**
-  Light, silent, and absurdly fast. It runs my dev stack like a champ and vanishes in my backpack like a magician’s final trick.
+  Light, silent, absurdly fast. It handles my full dev stack without breaking a sweat — and vanishes into my backpack like a magician’s finale.
 
 - **Apple Magic Keyboard**
-  Wireless, minimal, and so white it’s practically a lifestyle choice. My fingers float — and so does my soul.
+  Minimal, wireless, and stylishly white. My fingers glide, my code flows, and I pretend I’m writing poetry.
 
 - **Logitech MX Master 3S**
-  Silky smooth, whisper quiet, and ergonomically elite. Scrolling through code has never felt this luxurious.
+  The Rolls Royce of mice. Smooth, quiet, ergonomic — perfect for marathon coding sessions or scroll-heavy debugging.
 
 - **Powerbeats Pro 2**
-  Stays in place through deep focus or deep squats. Great sound, zero wires, and a battery that outlasts my to-do list.
+  Wireless, grippy, and with enough battery to outlast my workday. Great for deep focus and deep squats.
 
 - **Native Union Desk Laptop Stand**
-  Foldable, aluminum, and ergonomically enlightened. Also doubles as a conversation starter at cafés.
+  Sleek, aluminum, and posture-saving. Bonus: looks cool enough to spark conversations with curious strangers.
 
 ---
 
