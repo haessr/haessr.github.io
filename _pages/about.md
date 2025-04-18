@@ -509,7 +509,7 @@ permalink: /about/
   </section>
 </div>
 
-<script>
+<!-- <script>
   const phrases = [
     "I build things with intention. Mostly with Rails. Always with care.",
     "Engineering with clarity — product thinking included."
@@ -522,7 +522,7 @@ permalink: /about/
     index = (index + 1) % phrases.length;
     subtitleEl.textContent = phrases[index];
   }, 4000);
-</script>
+</script> -->
 
 <!-- <script>
   document.querySelectorAll('.status-badge').forEach(badge => {
